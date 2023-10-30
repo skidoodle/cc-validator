@@ -1,0 +1,47 @@
+body,
+input {
+  width: 100%;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #338ef7;
+  font-size: 1.5rem;
+  margin: 10% auto;
+}
+form {
+  max-width: 350px;
+  margin: 0 auto;
+}
+input,
+label {
+  margin: 10px 0;
+  color: #338ef7;
+  font-size: 2rem;
+}
+input {
+  padding: 10px;
+  border: 1px solid #338ef7;
+  border-radius: 5px;
+  background-color: #333;
+  box-sizing: border-box;
+}
+button {
+  background-color: #338ef7;
+  color: #efefef;
+  border: none;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
